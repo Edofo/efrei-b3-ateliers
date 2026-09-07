@@ -8,6 +8,8 @@ là, fais un `git pull`.
 | --- | --- | --- |
 | 1 | 🔧 Le repo saboté | dépôt séparé : <https://github.com/Edofo/efrei-b3-bloc01> |
 | 2 | 🎯 Devine ma classe | `bloc02-devine-ma-classe/` |
+| 3 | ⚡ Refactoring Race | `bloc03-refactoring-race/` |
+| 4 | 🍝 Désspaghettification | `bloc04-desspaghettification/` |
 
 Le bloc 1 a son propre dépôt parce que son historique Git **fait partie de
 l'exercice** : il se clone à part.
