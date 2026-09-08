@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: atelier-bloc06-db
+    environment:
+      POSTGRES_USER: investigation
+      POSTGRES_PASSWORD: investigation
+      POSTGRES_DB: investigation
+      TZ: Europe/Paris
+    ports:
+      - "5436:5432"
+    volumes:
+      - ./db/01-enquete.sql:/docker-entrypoint-initdb.d/01-enquete.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U investigation -d investigation"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
