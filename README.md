@@ -8,11 +8,15 @@ là, fais un `git pull`.
 | --- | --- | --- |
 | 1 | 🔧 Le repo saboté | dépôt séparé : <https://github.com/Edofo/efrei-b3-bloc01> |
 | 2 | 🎯 Devine ma classe | `bloc02-devine-ma-classe/` |
-| 3 | ⚡ Refactoring Race | `bloc03-refactoring-race/` |
+| 3 | ⚡ Refactoring Race | `bloc03-refactoring-race/` · corrigé dans `correction/` |
 | 4 | 🍝 Désspaghettification | `bloc04-desspaghettification/` |
 
 Le bloc 1 a son propre dépôt parce que son historique Git **fait partie de
 l'exercice** : il se clone à part.
+
+Les corrigés arrivent **après** l'atelier concerné, dans un sous-dossier
+`correction/`. Le point de départ, lui, reste intact à côté : tu peux refaire
+l'exercice depuis zéro à tout moment.
 
 ## Prérequis sur ton poste
 
