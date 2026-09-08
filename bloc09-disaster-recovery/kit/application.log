@@ -1,0 +1,14 @@
+2026-03-12 02:00:01 INFO  backup  starting incremental backup
+2026-03-12 02:00:04 WARN  disk    2% free space left on /var/backups
+2026-03-12 02:00:07 ERROR backup  write interrupted: No space left on device
+2026-03-12 02:00:07 ERROR backup  incr-2026-03-12.sql: stream closed prematurely
+2026-03-12 02:00:08 INFO  backup  backup marked as "completed" (exit code not checked)
+2026-03-12 08:40:12 INFO  api     order CMD-2026-0012 recorded
+2026-03-12 19:15:44 INFO  api     order CMD-2026-0013 recorded
+2026-03-13 02:00:01 INFO  backup  starting incremental backup
+2026-03-13 02:00:09 INFO  backup  incr-2026-03-13.sql written (0.6 KB)
+2026-03-13 02:41:55 INFO  api     order CMD-2026-0014 recorded
+2026-03-13 03:02:18 WARN  disk    unreadable sector on /dev/sda1
+2026-03-13 03:05:40 INFO  api     order CMD-2026-0015 recorded
+2026-03-13 03:11:47 ERROR db      unexpected PostgreSQL shutdown
+2026-03-13 03:12:02 FATAL system  hardware failure, server offline
