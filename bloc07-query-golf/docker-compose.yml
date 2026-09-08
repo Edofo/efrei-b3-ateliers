@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: atelier-bloc07-db
+    # Un serveur de production partage ne dedie pas trois coeurs a un rapport
+    # de reporting : on desactive le parallelisme. Effet de bord tres utile
+    # ici : le plan d'execution tient sur un ecran et se lit vraiment.
+    command:
+      - postgres
+      - -c
+      - max_parallel_workers_per_gather=0
+      - -c
+      - jit=off
+    environment:
+      POSTGRES_USER: golf
+      POSTGRES_PASSWORD: golf
+      POSTGRES_DB: golf
+      TZ: Europe/Paris
+    ports:
+      - "5437:5432"
+    volumes:
+      - ./db/01-generation.sql:/docker-entrypoint-initdb.d/01-generation.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U golf -d golf"]
+      interval: 5s
+      timeout: 5s
+      retries: 60

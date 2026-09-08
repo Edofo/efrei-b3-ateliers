@@ -1,0 +1,9 @@
+-- ma-solution/mon-index.sql
+-- Les index (et autre DDL) que vous voulez creer, un par ligne de commande.
+-- ./verifier.sh rejoue ce fichier a chaque execution : utilisez
+-- CREATE INDEX IF NOT EXISTS pour pouvoir le relancer sans erreur.
+--
+-- Exemple de syntaxe (ce n'est PAS la reponse) :
+--   CREATE INDEX IF NOT EXISTS idx_exemple ON readings (value);
+--
+-- Laissez vide tant que vous n'avez rien a creer.
