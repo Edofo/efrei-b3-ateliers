@@ -11,7 +11,7 @@ là, fais un `git pull`.
 | 3 | ⚡ Refactoring Race | `bloc03-refactoring-race/` · corrigé dans `correction/` |
 | 4 | 🍝 Désspaghettification | `bloc04-desspaghettification/` · corrigé dans `correction/` |
 | 5 | 🗂️ Le schéma cassé | `bloc05-schema-casse/` · corrigé dans `correction/` |
-| 6 | 🔍 Enquête SQL | `bloc06-enquete-sql/` |
+| 6 | 🔍 Enquête SQL | `bloc06-enquete-sql/` · corrigé dans `correction/` |
 | 7 | ⛳ Query Golf | `bloc07-query-golf/` |
 | 9 | 🚨 Disaster Recovery | `bloc09-disaster-recovery/` |
 
