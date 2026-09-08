@@ -1,0 +1,22 @@
+{
+  "name": "workshop-registrations-layered",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "start": "node app/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "@types/pg": "^8.23.1",
+    "typescript": "~6.0.3"
+  }
+}

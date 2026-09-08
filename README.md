@@ -9,7 +9,7 @@ là, fais un `git pull`.
 | 1 | 🔧 Le repo saboté | dépôt séparé : <https://github.com/Edofo/efrei-b3-bloc01> |
 | 2 | 🎯 Devine ma classe | `bloc02-devine-ma-classe/` |
 | 3 | ⚡ Refactoring Race | `bloc03-refactoring-race/` · corrigé dans `correction/` |
-| 4 | 🍝 Désspaghettification | `bloc04-desspaghettification/` |
+| 4 | 🍝 Désspaghettification | `bloc04-desspaghettification/` · corrigé dans `correction/` |
 | 5 | 🗂️ Le schéma cassé | `bloc05-schema-casse/` |
 | 6 | 🔍 Enquête SQL | `bloc06-enquete-sql/` |
 
