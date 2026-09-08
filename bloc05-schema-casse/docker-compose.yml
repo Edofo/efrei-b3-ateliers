@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: atelier-bloc05-db
+    environment:
+      POSTGRES_USER: club
+      POSTGRES_PASSWORD: club
+      POSTGRES_DB: club
+      TZ: Europe/Paris
+    ports:
+      - "5435:5432"
+    volumes:
+      - ./db/01-schema-nu.sql:/docker-entrypoint-initdb.d/01-schema-nu.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U club -d club"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
