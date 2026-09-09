@@ -12,7 +12,7 @@ là, fais un `git pull`.
 | 4 | 🍝 Désspaghettification | `bloc04-desspaghettification/` · corrigé dans `correction/` |
 | 5 | 🗂️ Le schéma cassé | `bloc05-schema-casse/` · corrigé dans `correction/` |
 | 6 | 🔍 Enquête SQL | `bloc06-enquete-sql/` · corrigé dans `correction/` |
-| 7 | ⛳ Query Golf | `bloc07-query-golf/` |
+| 7 | ⛳ Query Golf | `bloc07-query-golf/` · corrigé dans `correction/` |
 | 9 | 🚨 Disaster Recovery | `bloc09-disaster-recovery/` |
 
 Le bloc 1 a son propre dépôt parce que son historique Git **fait partie de
