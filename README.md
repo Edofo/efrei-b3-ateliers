@@ -13,8 +13,9 @@ là, fais un `git pull`.
 | 5 | 🗂️ Le schéma cassé | `bloc05-schema-casse/` · corrigé dans `correction/` |
 | 6 | 🔍 Enquête SQL | `bloc06-enquete-sql/` · corrigé dans `correction/` |
 | 7 | ⛳ Query Golf | `bloc07-query-golf/` · corrigé dans `correction/` |
-| 9 | 🚨 Disaster Recovery | `bloc09-disaster-recovery/` |
+| 9 | 🚨 Disaster Recovery | `bloc09-disaster-recovery/` · corrigé dans `correction/` |
 | 10 | 📋 Post-mortem | `bloc10-postmortem/` |
+| 11 | 🐛 La chasse au bug IA | `bloc11-chasse-au-bug-ia/` |
 
 Le bloc 1 a son propre dépôt parce que son historique Git **fait partie de
 l'exercice** : il se clone à part.

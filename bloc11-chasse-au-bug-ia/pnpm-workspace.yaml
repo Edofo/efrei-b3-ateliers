@@ -1,0 +1,3 @@
+# pnpm 11 no longer runs dependency install scripts without an explicit opt-in.
+allowBuilds:
+  esbuild: true
