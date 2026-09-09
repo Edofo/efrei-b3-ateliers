@@ -15,7 +15,7 @@ là, fais un `git pull`.
 | 7 | ⛳ Query Golf | `bloc07-query-golf/` · corrigé dans `correction/` |
 | 9 | 🚨 Disaster Recovery | `bloc09-disaster-recovery/` · corrigé dans `correction/` |
 | 10 | 📋 Post-mortem | `bloc10-postmortem/` |
-| 11 | 🐛 La chasse au bug IA | `bloc11-chasse-au-bug-ia/` |
+| 11 | 🐛 La chasse au bug IA | `bloc11-chasse-au-bug-ia/` · énoncé dans `ENONCE.md` |
 
 Le bloc 1 a son propre dépôt parce que son historique Git **fait partie de
 l'exercice** : il se clone à part.
